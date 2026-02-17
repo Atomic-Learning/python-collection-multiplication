@@ -1,0 +1,18 @@
+{
+    "title": "Python: Strings - Multiplication",
+    "slug": "python-strings-multiplication",
+    "description": "Using the * operator to repeat strings, creating a new string with multiple copies of the original.",
+    "authors": [
+        "chris-cooling"
+    ],
+    "tags": [
+        "python"
+    ],
+    "duration": 3,
+    "prerequisites": [
+        "python-strings-introduction"
+    ],
+    "related": [
+        "python-strings-concatenation"
+    ]
+}

@@ -1,0 +1,33 @@
+<p>You can use the <code class="language-python">*</code> operator to repeat a string multiple times, creating a new string that contains the original repeated.</p>
+
+<h2>Basic String Repetition</h2>
+
+<py-cell>print("ha" * 3)
+print("=" * 5)</py-cell>
+
+<h2>Using Variables</h2>
+
+<p>You can repeat strings stored in variables:</p>
+
+<py-cell>word = "echo "
+repeated = word * 4
+print(repeated)
+print(word) # The original string is unchanged</py-cell>
+
+<h2>Practical Uses</h2>
+
+<p>String repetition is useful for creating patterns, separators, or formatting:</p>
+
+<py-cell># Create a divider line
+print("-" * 40)
+
+# Create padding
+spaces = " " * 10
+print(spaces + "centered")</py-cell>
+
+<h2>Order Doesn't Matter</h2>
+
+<p>You can place the number before or after the string:</p>
+
+<py-cell>print("!" * 5)
+print(5 * "!")</py-cell>
