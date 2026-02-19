@@ -1,7 +1,7 @@
 {
-    "title": "Python: Strings - Multiplication",
-    "slug": "python-strings-multiplication",
-    "description": "Using the * operator to repeat strings, creating a new string with multiple copies of the original.",
+    "title": "Python: Collection Multiplication",
+    "slug": "python-collection-multiplication",
+    "description": "Using the * operator to repeat collections, creating a new collection with multiple copies of the original. Uses lists and strings as examples.",
     "authors": [
         "chris-cooling"
     ],
@@ -10,9 +10,11 @@
     ],
     "duration": 3,
     "prerequisites": [
-        "python-strings-introduction"
+        "python-strings-introduction",
+        "python-lists-introduction",
+        "python-concatenation"
     ],
     "related": [
-        "python-concatenation"
+        "python-dictionaries-introduction"
     ]
 }
